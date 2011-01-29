@@ -1,0 +1,7 @@
+## Interface: 40000
+## Title: gAssistant
+## Author: g0st
+## Notes: Collection of helpful scripts.
+## Version: 0.0.0
+
+core.lua
