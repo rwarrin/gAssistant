@@ -9,3 +9,6 @@ SlashCmdList["GREADYCHECK"] = function() DoReadyCheck(); end
 
 SLASH_CONVERTTOPARTY1 = "/ctp";
 SlashCmdList["CONVERTTOPARTY"] = function() ConvertToParty(); end
+
+SLASH_CONVERTTORAID1 = "ctr";
+SlashCmdList["CONVERTTORAID"] = function() ConvertToRaid(); end
