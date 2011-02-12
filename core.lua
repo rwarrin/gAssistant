@@ -3,5 +3,9 @@
 
 -- Ready Check
 -- Quickly initiate a ready check with a slash command
+
 SLASH_GREADYCHECK1 = "/rc";
-SlashCmdList["SLASH_GREADYCHECK"] = function() DoReadyCheck(); end
+SlashCmdList["GREADYCHECK"] = function() DoReadyCheck(); end
+
+SLASH_CONVERTTOPARTY1 = "/ctp";
+SlashCmdList["CONVERTTOPARTY"] = function() ConvertToParty(); end
