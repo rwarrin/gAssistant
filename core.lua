@@ -16,6 +16,15 @@ SlashCmdList["CONVERTTOPARTY"] = function() ConvertToParty(); end
 SLASH_CONVERTTORAID1 = "/ctr";
 SlashCmdList["CONVERTTORAID"] = function() ConvertToRaid(); end
 
+-- Get Build Info
+-- Get the current build information of the wow client.
+SLASH_GETBUILDINFOPRETTY1 = "/gbi";
+SlashCmdList["GETBUILDINFOPRETTY"] = function()
+	local version, build, iDate, toc = GetBuildInfo();
+	print("|cff3379b3Current Client Build Info|r");
+	print("|cff3379b3Version:|r|cffb33333 " .. version .. "|r  |cff3379b3Build:|r|cffb33333 " .. build .. "|r  |cff3379b3Date:|r|cffb33333 " .. iDate .. "|r  |cff3379b3ToC Version:|r|cffb33333 " .. toc .. "|r");
+end
+
 -- Help
 -- Display a list of the available slash commands and their functions
 SLASH_GASSISTHELP1 = "/gahelp";
