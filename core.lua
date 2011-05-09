@@ -33,4 +33,5 @@ SlashCmdList["GASSISTHELP"] = function()
 	print("|cff7bb333gAssistant:|r  |cffb33333/rc|r  - |cff33b1b3Ready Check.|r");
 	print("|cff7bb333gAssistant:|r  |cffb33333/ctp|r - |cff33b1b3Convert a raid group to a party.|r");
 	print("|cff7bb333gAssistant:|r  |cffb33333/ctr|r - |cff33b1b3Convert a party to a raid group.|r");
+	print("|cff7bb333gAssistant:|r  |cffb33333/gbi|r - |cff33b1b3Returns a pretty output of the current build info.|r");
 end
