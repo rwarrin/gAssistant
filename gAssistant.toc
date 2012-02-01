@@ -1,7 +1,7 @@
-## Interface: 40100
+## Interface: 40300
 ## Title: gAssistant
 ## Author: g0st
 ## Notes: Collection of helpful scripts.
-## Version: 0.0.0
+## Version: 1.0.0
 
 core.lua
