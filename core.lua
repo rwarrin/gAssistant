@@ -25,6 +25,11 @@ SlashCmdList["GETBUILDINFOPRETTY"] = function()
 	print("|cff3379b3Version:|r|cffb33333 " .. version .. "|r  |cff3379b3Build:|r|cffb33333 " .. build .. "|r  |cff3379b3Date:|r|cffb33333 " .. iDate .. "|r  |cff3379b3ToC Version:|r|cffb33333 " .. toc .. "|r");
 end
 
+-- Reload The UI
+-- Quickly reload the UI
+SLASH_RELOADUI1 = "/rl";
+SlashCmdList["RELOADUI"] = function() ReloadUI(); end
+
 -- Help
 -- Display a list of the available slash commands and their functions
 SLASH_GASSISTHELP1 = "/gahelp";
@@ -33,5 +38,6 @@ SlashCmdList["GASSISTHELP"] = function()
 	print("|cff7bb333gAssistant:|r  |cffb33333/rc|r  - |cff33b1b3Ready Check.|r");
 	print("|cff7bb333gAssistant:|r  |cffb33333/ctp|r - |cff33b1b3Convert a raid group to a party.|r");
 	print("|cff7bb333gAssistant:|r  |cffb33333/ctr|r - |cff33b1b3Convert a party to a raid group.|r");
+        print("|cff7bb333gAssistant:|r  |cffb33333/rl|r  - |cff33b1b3Reload the UI");
 	print("|cff7bb333gAssistant:|r  |cffb33333/gbi|r - |cff33b1b3Returns a pretty output of the current build info.|r");
 end
