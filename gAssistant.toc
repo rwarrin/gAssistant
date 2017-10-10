@@ -1,4 +1,4 @@
-## Interface: 60200
+## Interface: 70300
 ## Title: gAssistant
 ## Author: g0st
 ## Notes: Collection of helpful scripts.
