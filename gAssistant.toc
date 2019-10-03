@@ -1,7 +1,7 @@
-## Interface: 70300
+## Interface: 80205
 ## Title: gAssistant
 ## Author: g0st
 ## Notes: Collection of helpful scripts.
-## Version: 1.0.0
+## Version: 1.1.0
 
 core.lua
