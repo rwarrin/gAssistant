@@ -30,6 +30,15 @@ end
 SLASH_RELOADUI1 = "/rl";
 SlashCmdList["RELOADUI"] = function() ReloadUI(); end
 
+-- Player Rest State
+-- Returns whether the player is in a rested (earning double XP for kills) or normal state.
+SLASH_GETRESTSTATE1 = "/rs";
+SlashCmdList["GETRESTSTATE"] = function()
+	local id, name, mult = GetRestState();
+	print("|cff3379b3Current Client Build Info|r");
+	print("|cff3379b3State:|r|cffb33333 " .. id .. "|r  |cff3379b3Name:|r|cffb33333 " .. name .. "|r  |cff3379b3XP Multiplier:|r|cffb33333 " .. mult .. "|r");
+end
+
 -- Help
 -- Display a list of the available slash commands and their functions
 SLASH_GASSISTHELP1 = "/gahelp";
