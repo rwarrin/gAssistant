@@ -39,6 +39,16 @@ SlashCmdList["GETRESTSTATE"] = function()
 	print("|cff3379b3State:|r|cffb33333 " .. id .. "|r  |cff3379b3Name:|r|cffb33333 " .. name .. "|r  |cff3379b3XP Multiplier:|r|cffb33333 " .. mult .. "|r");
 end
 
+-- Get The Interface Version Details
+-- Returns the interface version details
+SLASH_GETINTERFACEVERSION1 = "/iv";
+SlashCmdList["GETINERFACEVERSION"] = function()
+	local version, build, date, tocversion, localizedVersion, buildType = GetBuildInfo();
+	print("|cff3379b3Current Game Build Info|r");
+	print("|cff3379b3Version:|r|cffb33333 " .. version .. "|r  |cff3379b3Build:|r|cffb33333 " .. build .. "|r  |cff3379b3Date:|r|cffb33333 " .. date .. "|r  |cff3379b3TOCVersion:|r|cffb33333 " .. tocversion .. "|r   |cff3379b3LocalizedVersion:|r|cffb33333 " .. localizedVersion .. "|r   |cff3379b3BuildType:|r|cffb33333 " .. buildType .. "|r");
+
+end
+
 -- Help
 -- Display a list of the available slash commands and their functions
 SLASH_GASSISTHELP1 = "/gahelp";
